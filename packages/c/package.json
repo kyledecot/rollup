@@ -1,0 +1,29 @@
+{
+    "name": "c",
+    "version": "1.0.0",
+    "module": "lib/index.js",
+    "exports": {
+        ".": "./lib/index.js"
+    },
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "type": "module",
+    "files": [
+        "lib"
+    ],
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/react": "^18.3.3",
+        "rollup": "^4.19.0",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "b": "../b"
+    },
+    "peerDependencies": {
+        "react": "^18.2.0"
+    }
+}

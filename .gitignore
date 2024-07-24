@@ -1,0 +1,8 @@
+packages/a/build
+packages/a/target
+
+packages/b/node_modules
+packages/b/lib
+
+packages/c/node_modules
+packages/c/lib

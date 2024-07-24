@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "ES2019",
+            "WebWorker",
+            "dom"
+        ],
+        "rootDir": "./src",
+        "jsx": "react",
+        "outDir": "./lib",
+        "module": "NodeNext",
+        "declaration": true,
+        "moduleResolution": "NodeNext",
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "target": "ESNext"
+    },
+    "include": [
+        "src",
+        "node_modules/**/*.js"
+    ]
+}
